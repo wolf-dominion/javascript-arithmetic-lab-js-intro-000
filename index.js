@@ -20,10 +20,20 @@ function divide()
 
 function inc(n)
 {
-  
+  number++
 }
 
 function dec(n)
 {
-  
+  number--
+}
+
+function makeInt(n)
+{
+  parseInt('n', 10)
+}
+
+function preserveDecimal(n)
+{
+  parseFloat('n')
 }
