@@ -18,3 +18,12 @@ function divide()
   number /= 5
 }
 
+function inc(n)
+{
+  
+}
+
+function dec(n)
+{
+  
+}
