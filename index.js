@@ -1,39 +1,39 @@
-function add()
+function add(a, b)
 {
-  n += 5
+  return a + b
 }
 
-function subtract()
+function subtract(a, b)
 {
-  n -= 5
+  return a - b
 }
 
-function multiply()
+function multiply(a, b)
 {
-  n *= 5
+ return a * b
 }
 
-function divide()
+function divide(a,b)
 {
-  n /= 5
+ return a/b
 }
 
 function inc(n)
 {
-  n++
+  return n++
 }
 
 function dec(n)
 {
-  n--
+  return n--
 }
 
 function makeInt(n)
 {
-  parseInt('n', 10)
+  return parseInt('n', 10)
 }
 
 function preserveDecimal(n)
 {
-  parseFloat('n')
+ return parseFloat('n')
 }
